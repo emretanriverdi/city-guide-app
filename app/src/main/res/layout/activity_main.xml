@@ -3,8 +3,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E0E0E0"
+    android:orientation="vertical"
+    android:weightSum="7"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:padding="16dp"
+        android:src="@drawable/georgia_coat_of_arms" />
 
+    <TextView
+        android:id="@+id/text_view_general_info"
+        style="@style/MainListTheme"
+        android:background="@color/color_general_info"
+        android:text="General Info" />
+
+    <TextView
+        android:id="@+id/text_view_local_dishes"
+        style="@style/MainListTheme"
+        android:background="@color/color_local_dishes"
+        android:text="Local Dishes" />
+
+    <TextView
+        android:id="@+id/text_view_historical_places"
+        style="@style/MainListTheme"
+        android:background="@color/color_historical_places"
+        android:text="Historical Places" />
+
+    <TextView
+        android:id="@+id/text_view_useful_links"
+        style="@style/MainListTheme"
+        android:background="@color/color_useful_links"
+        android:text="Useful Links" />
 
 </LinearLayout>
