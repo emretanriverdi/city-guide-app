@@ -15,28 +15,52 @@
         android:padding="16dp"
         android:src="@drawable/georgia_coat_of_arms" />
 
-    <TextView
-        android:id="@+id/text_view_general_info"
-        style="@style/MainListTheme"
-        android:background="@color/color_general_info"
-        android:text="General Info" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark">
 
-    <TextView
-        android:id="@+id/text_view_local_dishes"
-        style="@style/MainListTheme"
-        android:background="@color/color_local_dishes"
-        android:text="Local Dishes" />
+        <TextView
+            android:id="@+id/text_view_general_info"
+            style="@style/MainListTheme"
+            android:text="General Info" />
+    </FrameLayout>
 
-    <TextView
-        android:id="@+id/text_view_historical_places"
-        style="@style/MainListTheme"
-        android:background="@color/color_historical_places"
-        android:text="Historical Places" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/color_local_dishes">
 
-    <TextView
-        android:id="@+id/text_view_useful_links"
-        style="@style/MainListTheme"
-        android:background="@color/color_useful_links"
-        android:text="Useful Links" />
+        <TextView
+            android:id="@+id/text_view_local_dishes"
+            style="@style/MainListTheme"
+            android:text="Local Dishes" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/color_historical_places">
+
+        <TextView
+            android:id="@+id/text_view_historical_places"
+            style="@style/MainListTheme"
+            android:text="Historical Places" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/color_useful_links">
+
+        <TextView
+            android:id="@+id/text_view_useful_links"
+            style="@style/MainListTheme"
+            android:text="Useful Links" />
+    </FrameLayout>
 
 </LinearLayout>
