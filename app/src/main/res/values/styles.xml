@@ -17,4 +17,30 @@
         <item name="android:textStyle">bold</item>
         <item name="android:background">?android:attr/selectableItemBackground</item>
     </style>
+
+    <style name="InfoVisaMainLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#191919</item>
+    </style>
+
+    <style name="InfoImageStyle">
+        <item name="android:layout_width">130dp</item>
+        <item name="android:layout_height">110dp</item>
+    </style>
+
+    <style name="InfoTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">#FBF38E</item>
+    </style>
+
+    <style name="InfoVisaPolicyStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
 </resources>

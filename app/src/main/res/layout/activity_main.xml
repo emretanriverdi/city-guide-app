@@ -24,7 +24,7 @@
         <TextView
             android:id="@+id/text_view_general_info"
             style="@style/MainListTheme"
-            android:text="General Info" />
+            android:text="@string/general_info" />
     </FrameLayout>
 
     <FrameLayout
@@ -36,7 +36,7 @@
         <TextView
             android:id="@+id/text_view_local_dishes"
             style="@style/MainListTheme"
-            android:text="Local Dishes" />
+            android:text="@string/local_dishes" />
     </FrameLayout>
 
     <FrameLayout
@@ -48,7 +48,7 @@
         <TextView
             android:id="@+id/text_view_historical_places"
             style="@style/MainListTheme"
-            android:text="Historical Places" />
+            android:text="@string/historical_places" />
     </FrameLayout>
 
     <FrameLayout
@@ -60,7 +60,6 @@
         <TextView
             android:id="@+id/text_view_useful_links"
             style="@style/MainListTheme"
-            android:text="Useful Links" />
+            android:text="@string/useful_links" />
     </FrameLayout>
-
 </LinearLayout>

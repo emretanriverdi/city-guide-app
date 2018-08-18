@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Batumi Travel Guide</string>
+    <string name="general_info">General Info</string>
+    <string name="local_dishes">Local Dishes</string>
+    <string name="historical_places">Historical Places</string>
+    <string name="useful_links">Useful Links</string>
+    <string name="batumi">Batumi</string>
+    <string name="info_main_text">Batumi is a popular tourist destination known for its varying weather. It\'s a bustling seaside resort during warm seasons, but also it can get entirely covered in snow during winter.\nMuch of Batumi\'s economy revolves around tourism and gambling, but the city is also an important sea port and includes industries like shipbuilding, food processing and light manufacturing. Since 2010, Batumi has been transformed by the construction of modern high-rise buildings, as well as the restoration of classical 19th-century edifices lining its historic Old Town.</string>
+    <string name="info_secondary_text">Batumi is the second-largest city of Georgia, located on the coast of the Black Sea in the country\'s southwest; bordering Turkey.</string>
+    <string name="info_visa_full_text">Visitors to Georgia must obtain a visa from Georgian diplomatic missions unless they come from one of the visa exempt countries. Visitors must hold a passport (or identity card if a Turkish or EU citizen) valid for the period of intended stay, while Georgian citizens can enter with a valid or expired passport or identity card.\n\nThe following is the full list of the countries whose citizens have the right to enter and stay in Georgia without visa, for one full year (as of August 2018):\n\nAlbania\nAndorra\nAntigua and Barbuda\nArgentina\nArmenia\nAruba\nAustralia\nAzerbaijan\nBahamas\nBahrain\nBarbados\nBelarus\nBelgium\nBelize\nBermuda Islands\nBosnia and Herzegovina\nBotswana\nBrazil\nBrunei\nBritish Virgin Islands\nBulgaria\nCanada\nCayman Islands\nColombia\nCosta Rica\nCroatia\nCzech Republic\nCyprus\nDenmark\nDominican Republic\nEcuador\nEl Salvador\nEstonia\nFaroe Islands\nFalkland Islands\nFinland\nFrance\nFrench Polynesia\nNew Caledonia\nGermany\nGibraltar\nGreece\nGreenland\nGuernsey Islands\nHoly See\nHonduras\nHungary\nIceland\nItaly\nIreland\nIsrael\nJersey Islands\nJapan\nKazakhstan\nKorea\nKuwait\nKyrgyzstan\nLatvia\nLebanon\nLiechtenstein\nLithuania\nLuxembourg\nMalaysia\nMalta\nMann Islands\nMauritius\nMexico\nMoldova\nMonaco\nMontenegro\nNetherlands\nNetherlands Antilles\nNew Zealand\nNorway\nOman\nPanama\nPoland\nPortugal\nQatar\nRomania\nRussian Federation\nSaint Vincent and The Grenadines\nSan Marino\nSaudi Arabia\nSerbia\nSeychelles\nSingapore\nSlovakia\nSlovenia\nSouth Africa\nSpain\nSweden\nSwitzerland\nTajikistan\nThailand\nTurkey\nTurkmenistan\nTurks and Caicos Islands\nUkraine\nUnited Arab Emirates\nUnited Kingdom\nUnited States of America\nUzbekistan</string>
+    <string name="info_visa_policy">Visa Policy of Georgia </string>
+    <string name="arrow_image">Arrow Image</string>
+    <string name="batumi_in_world_map_image">Batumi in World Map Image</string>
+    <string name="batumi_location_image">Batumi Location Image</string>
 </resources>

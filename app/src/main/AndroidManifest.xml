@@ -21,5 +21,6 @@
         <activity android:name=".FoodActivity" />
         <activity android:name=".PlacesActivity" />
         <activity android:name=".LinksActivity" />
+        <activity android:name=".VisaActivity" />
     </application>
 </manifest>

@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         usefulLinks.setOnClickListener(sendTo(LinksActivity.class));
     }
 
-    private View.OnClickListener sendTo(final Class className) {
+    public View.OnClickListener sendTo(final Class className) {
         return new View.OnClickListener() {
             @Override
             public void onClick(View v) {
