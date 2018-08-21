@@ -52,4 +52,5 @@
     <string name="link_tours"><![CDATA[<a href=\"http://tripadvisor.com/Attractions-g297576-Activities-c42-Batumi_Adjara_Region.html\">Batumi Tours</a>]]></string>
     <string name="link_batumi"><![CDATA[<a href=\"http://youtube.com/watch?v=ncylaYU8Wvs\">A video about Batumi</a>]]></string>
     <string name="link_statue"><![CDATA[<a href=\"http://youtube.com/watch?v=oQea4Z6pcRc\">Ali and Nino Statue\'s Video</a>]]></string>
+    <string name="app_short_name">Batumi Guide</string>
 </resources>
