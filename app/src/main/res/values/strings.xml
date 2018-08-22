@@ -53,4 +53,6 @@
     <string name="link_batumi"><![CDATA[<a href=\"http://youtube.com/watch?v=ncylaYU8Wvs\">A video about Batumi</a>]]></string>
     <string name="link_statue"><![CDATA[<a href=\"http://youtube.com/watch?v=oQea4Z6pcRc\">Ali and Nino Statue\'s Video</a>]]></string>
     <string name="app_short_name">Batumi Guide</string>
+    <string name="georgia_coat_of_arms">Georgia Coat of Arms</string>
+    <string name="list_image">List Image</string>
 </resources>

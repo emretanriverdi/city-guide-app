@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
+        android:contentDescription="@string/georgia_coat_of_arms"
         android:padding="16dp"
         android:src="@drawable/georgia_coat_of_arms" />
 

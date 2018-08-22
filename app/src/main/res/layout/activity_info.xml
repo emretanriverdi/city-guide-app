@@ -1,68 +1,74 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="20dp">
-
-        <TextView
-            style="@style/InfoTextStyle"
-            android:layout_marginTop="16dp"
-            android:text="@string/info_main_text"
-            android:textSize="16sp" />
+        android:layout_height="wrap_content">
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8dp">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
 
-            <ImageView
-                style="@style/InfoImageStyle"
-                android:contentDescription="@string/batumi_in_world_map_image"
-                android:src="@drawable/batumi_world" />
+            <TextView
+                style="@style/InfoTextStyle"
+                android:layout_marginTop="16dp"
+                android:text="@string/info_main_text"
+                android:textSize="16sp" />
 
-            <ImageView
-                style="@style/InfoImageStyle"
-                android:layout_marginStart="12dp"
-                android:contentDescription="@string/batumi_location_image"
-                android:src="@drawable/batumi_turkey" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    style="@style/InfoImageStyle"
+                    android:contentDescription="@string/batumi_in_world_map_image"
+                    android:src="@drawable/batumi_world" />
+
+                <ImageView
+                    style="@style/InfoImageStyle"
+                    android:layout_marginStart="12dp"
+                    android:contentDescription="@string/batumi_location_image"
+                    android:src="@drawable/batumi_turkey" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/InfoTextStyle"
+                android:layout_marginBottom="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginStart="32dp"
+                android:text="@string/info_secondary_text"
+                android:textSize="12sp" />
         </LinearLayout>
 
-        <TextView
-            style="@style/InfoTextStyle"
-            android:layout_marginEnd="32dp"
-            android:layout_marginStart="32dp"
-            android:text="@string/info_secondary_text"
-            android:textSize="12sp" />
-    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout_visa_policy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="24dp"
+            android:background="?android:attr/selectableItemBackground">
 
-    <LinearLayout
-        android:id="@+id/layout_visa_policy"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="24dp"
-        android:background="?android:attr/selectableItemBackground">
+            <TextView
+                android:id="@+id/text_visa_policy"
+                style="@style/InfoVisaPolicyStyle"
+                android:paddingTop="4dp"
+                android:text="@string/info_visa_policy"
+                android:textColor="@color/color_dark_yellow"
+                android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/text_visa_policy"
-            style="@style/InfoVisaPolicyStyle"
-            android:paddingTop="4dp"
-            android:text="@string/info_visa_policy"
-            android:textColor="@color/color_dark_yellow"
-            android:textSize="18sp" />
-
-        <ImageView
-            android:id="@+id/image_view_arrow"
-            style="@style/InfoVisaPolicyStyle"
-            android:contentDescription="@string/arrow_image"
-            android:src="@drawable/baseline_arrow_right_alt_white_36"
-            android:tint="@color/color_dark_yellow" />
-    </LinearLayout>
-</RelativeLayout>
+            <ImageView
+                android:id="@+id/image_view_arrow"
+                style="@style/InfoVisaPolicyStyle"
+                android:contentDescription="@string/arrow_image"
+                android:src="@drawable/baseline_arrow_right_alt_white_36"
+                android:tint="@color/color_dark_yellow" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
