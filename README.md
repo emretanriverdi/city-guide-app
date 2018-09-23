@@ -3,6 +3,8 @@ Batumi Travel Guide
 
 This project was given as an assignment in Google's (co-created with Udacity) Developer Challenge Scholarship.
 
+I have done a similar website for an Internet Programming assignment also. You can click it from above or from [here.](https://emretanriverdi.github.io/city-guide-website)
+
 Pre-requisites
 --------------
 
